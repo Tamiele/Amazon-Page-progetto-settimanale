@@ -35,6 +35,7 @@ main {
   margin-bottom: 1rem;
 }
 .section-title {
+  background-size: contain;
   background-image: url(../images/bg-image.png);
   width: 100%;
   color: white;
@@ -51,13 +52,15 @@ main {
   text-align: center;
   background-color: white;
   margin-block: 2rem;
+  padding-bottom: 1rem;
 }
 .cards {
   margin-inline: 8px;
   border-radius: 8%;
   width: 23%;
   height: 350px;
-  padding-bottom: 10px;
+
+  box-shadow: 8px 8px 10px rgb(0 0 0 / 0.1);
 }
 .title-nav {
   margin: 1rem;
