@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #e7eded;
 }
 header {
@@ -35,7 +35,7 @@ main {
   margin-bottom: 1rem;
 }
 .section-title {
-  background-size: contain;
+  background-size: cover;
   background-image: url(../images/bg-image.png);
   width: 100%;
   color: white;
@@ -43,6 +43,10 @@ main {
   padding: 2rem;
 }
 .section-title h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.section-title h3 {
   font-size: 2rem;
   padding: 1rem;
 }
@@ -55,10 +59,11 @@ main {
   padding-bottom: 1rem;
 }
 .cards {
+  object-fit: cover;
   margin-inline: 8px;
   border-radius: 8%;
   width: 23%;
-  height: 350px;
+  height: 530px;
 
   box-shadow: 8px 8px 10px rgb(0 0 0 / 0.1);
 }
@@ -66,11 +71,13 @@ main {
   margin: 1rem;
   text-align: start;
   font-weight: bold;
+  font-size: 28px;
 }
 .title-nav a {
   color: #15596e;
   text-decoration: none;
   font-weight: bold;
+  font-size: 28px;
 }
 .img {
   width: 100%;
@@ -81,11 +88,14 @@ main {
   margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 2rem;
 }
 .title-nav2 a {
   color: #15596e;
   text-decoration: none;
   font-weight: bold;
+  font-size: 28px;
 }
 footer {
   margin: 1rem;
@@ -96,11 +106,13 @@ footer {
 .nav2 {
   background-color: #364759;
   padding: 10px;
+  font-size: 28px;
 }
 .nav2 a {
   color: white;
   margin-inline: 10px;
-  font-weight: bold;
+
+  font-size: 28px;
 }
 .logo2 {
   padding: 1rem;

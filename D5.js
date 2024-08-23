@@ -75,16 +75,18 @@ cars.push({
   trims: ["life", "style", "r-line"],
 });
 console.log(cars);
+/////////////////////////////////////////////////////
 for (let i = 0; i < cars.length; i++) {
-  cars.pop();
+  cars[i].trims.pop();
 }
+console.log(cars);
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
 for (let i = 0; i < cars.length; i++) {
-  justTrims.push(cars[i].trims[0]);
+  justTrims.push("justrims", cars[i].trims[0]);
 }
 
 console.log(justTrims);
