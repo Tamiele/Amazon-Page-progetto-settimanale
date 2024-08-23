@@ -1,1 +1,106 @@
 /* Your styles here */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #e7eded;
+}
+header {
+  background-color: #222f3f;
+}
+.logo {
+  width: 150px;
+  margin-block: 10px;
+  margin-left: 1rem;
+}
+.navigazione {
+  background-color: #364759;
+  padding: 10px;
+}
+.navigazione a {
+  color: white;
+  margin-inline: 10px;
+  text-decoration: none;
+}
+main {
+  margin: 1rem;
+  text-align: center;
+  background-color: #e7eded;
+}
+.giftCards {
+  background-color: #f76502;
+  color: white;
+  padding: 8px;
+  margin-bottom: 1rem;
+}
+.section-title {
+  background-image: url(../images/bg-image.png);
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 2rem;
+}
+.section-title h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.blocco-uno {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  margin-block: 2rem;
+}
+.cards {
+  margin-inline: 8px;
+  border-radius: 8%;
+  width: 23%;
+  height: 350px;
+  padding-bottom: 10px;
+}
+.title-nav {
+  margin: 1rem;
+  text-align: start;
+  font-weight: bold;
+}
+.title-nav a {
+  color: #15596e;
+  text-decoration: none;
+  font-weight: bold;
+}
+.img {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.title-nav2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+.title-nav2 a {
+  color: #15596e;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  margin: 1rem;
+  text-align: center;
+  background-color: #e7eded;
+  background-color: #222f3f;
+}
+.nav2 {
+  background-color: #364759;
+  padding: 10px;
+}
+.nav2 a {
+  color: white;
+  margin-inline: 10px;
+  font-weight: bold;
+}
+.logo2 {
+  padding: 1rem;
+  width: 200px;
+  margin-block: 10px;
+}
