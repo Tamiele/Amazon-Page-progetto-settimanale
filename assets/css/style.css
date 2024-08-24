@@ -6,12 +6,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e7eded;
 }
+
+/*    HEADER    */
 header {
   background-color: #222f3f;
 }
 .logo {
-  width: 150px;
-  margin-block: 10px;
+  width: 180px;
+  margin-block: 16px;
   margin-left: 1rem;
 }
 .navigazione {
@@ -22,7 +24,9 @@ header {
   color: white;
   margin-inline: 10px;
   text-decoration: none;
+  font-size: 21px;
 }
+/*    MAIN   */
 main {
   margin: 1rem;
   text-align: center;
@@ -32,7 +36,8 @@ main {
   background-color: #f76502;
   color: white;
   padding: 8px;
-  margin-bottom: 1rem;
+  margin-block: 2rem;
+  font-size: 24px;
 }
 .section-title {
   background-size: cover;
@@ -74,29 +79,31 @@ main {
   font-size: 28px;
 }
 .title-nav a {
-  color: #15596e;
+  color: #0c6f7b;
   text-decoration: none;
   font-weight: bold;
   font-size: 28px;
 }
+
+/*    ELEMENTI ASIDE    */
 .img {
   width: 100%;
   text-align: center;
   display: inline-block;
 }
 .title-nav2 {
-  margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
   font-size: 28px;
   margin-bottom: 2rem;
 }
 .title-nav2 a {
-  color: #15596e;
+  color: #0c6f7b;
   text-decoration: none;
   font-weight: bold;
   font-size: 28px;
 }
+/*    FOOTER    */
 footer {
   margin: 1rem;
   text-align: center;
@@ -106,7 +113,6 @@ footer {
 .nav2 {
   background-color: #364759;
   padding: 10px;
-  font-size: 28px;
 }
 .nav2 a {
   color: white;
