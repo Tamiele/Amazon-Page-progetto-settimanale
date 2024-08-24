@@ -108,7 +108,14 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 let i = 0;
-while (i < numericArray.length) {}
+while (i < numericArray.length) {
+  if (numericArray[i] !== 32) {
+    console.log(numericArray[i]);
+  }
+
+  i++;
+}
+console.log(numericArray);
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -116,3 +123,101 @@ while (i < numericArray.length) {}
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const alfabeto = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "z",
+];
+const posizione = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  charactersObj = charactersArray[i];
+
+  for (let x = 0; x < alfabeto.length; x++) {
+    if (charactersObj === alfabeto[x])
+      switch (charactersObj) {
+        case "a":
+          posizione.push(x + 1);
+          break;
+        case "b":
+          posizione.push(x + 1);
+          break;
+        case "c":
+          posizione.push(x + 1);
+          break;
+        case "d":
+          posizione.push(x + 1);
+          break;
+        case "e":
+          posizione.push(x + 1);
+          break;
+        case "f":
+          posizione.push(x + 1);
+          break;
+        case "g":
+          posizione.push(x + 1);
+          break;
+        case "h":
+          posizione.push(x + 1);
+          break;
+        case "i":
+          posizione.push(x + 1);
+          break;
+        case "l":
+          posizione.push(x + 1);
+          break;
+        case "m":
+          posizione.push(x + 1);
+          break;
+        case "n":
+          posizione.push(x + 1);
+          break;
+        case "o":
+          posizione.push(x + 1);
+          break;
+        case "p":
+          posizione.push(x + 1);
+          break;
+        case "q":
+          posizione.push(x + 1);
+          break;
+        case "r":
+          posizione.push(x + 1);
+          break;
+        case "s":
+          posizione.push(x + 1);
+          break;
+        case "t":
+          posizione.push(x + 1);
+          break;
+        case "u":
+          posizione.push(x + 1);
+          break;
+        case "v":
+          posizione.push(x + 1);
+          break;
+        case "z":
+          posizione.push(x + 1);
+          break;
+      }
+  }
+}
+console.log(posizione);
